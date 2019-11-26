@@ -10,7 +10,7 @@ class User_Serializers( serializers.HyperlinkedModelSerializer ):
             'Email',
             'Groups',
         ]
-class Group_Serialilizer(serializers.HyperlinkedModelSerialzer ):
+class Group_Serialilizers(serializers.HyperlinkedModelSerialzer ):
 	class Meta:
 		model = Group 
 		fields = [
